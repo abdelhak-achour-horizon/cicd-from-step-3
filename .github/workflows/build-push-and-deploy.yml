@@ -4,10 +4,10 @@ name: Build, Push and Deploy
 on:
   pull_request:
     branches:
-      - 'main'
+      - 'master'
   push:
     branches:
-      - 'main'
+      - 'master'
 
 jobs:
   build-and-push-image:
